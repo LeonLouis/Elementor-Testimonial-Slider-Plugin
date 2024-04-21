@@ -1,0 +1,34 @@
+.ets-img {
+  max-width: 96px !important;
+  height: 96px !important;
+  width: 100% !important;
+  border-radius: 50px !important;
+  object-fit: cover !important;
+  margin-bottom: 10px;
+}
+
+.slick-dots [type=button]:focus,
+.slick-dots [type=button]:hover,
+.slick-dots [type=submit]:focus,
+.slick-dots [type=submit]:hover,
+.slick-dots button:focus,
+.slick-dots button:hover {
+  background-color: transparent !important;
+}
+
+.slick-dots li button:before {
+  font-size: 15px !important;
+  line-height: 20px !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.slick-dots li button, .slick-dots li {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.slick-dots {
+  width: fit-content !important;
+  bottom: -55px !important;
+}
